@@ -2,6 +2,7 @@ package com.maru_app.trancelatetest;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -22,6 +23,7 @@ public class mobile_MainActivity extends Activity  {
                 .build();
         this.client.connect();
     }
+
 
 
     /*@Override

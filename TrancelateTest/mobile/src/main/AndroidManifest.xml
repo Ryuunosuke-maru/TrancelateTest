@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".MyServise" >
+            android:name=".MyService" >
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.WearableListenerService" />
             </intent-filter>
