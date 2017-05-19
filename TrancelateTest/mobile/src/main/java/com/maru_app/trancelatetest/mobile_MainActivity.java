@@ -39,8 +39,8 @@ public class mobile_MainActivity extends Activity  implements GoogleApiClient.Co
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mobile__main);
 
-        ActionBar ab = getActionBar();
-        ab.hide();
+        //ActionBar ab = getActionBar();
+        //ab.hide();
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         mSurfaceView = (MySurfaceView)findViewById(R.id.surfaceView_main);
